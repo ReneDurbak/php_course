@@ -1,0 +1,39 @@
+.zoznam {
+    border: 2px pink solid;
+    border-radius: 10px;
+    padding: 25px;
+    width: 50%;
+}
+
+.zoznam .karta {
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+    background-color: rgba(247, 245, 242, 0.217);
+}
+
+.zoznam .karta.vek-5 {
+    border: 4px solid green;
+    border-radius: 10px;
+    transition: ease-in-out 0.2ms;
+}
+
+.zoznam .karta.vek-6-15 {
+    border: 4px solid orange;
+    border-radius: 10px;
+    transition: ease-in-out 0.2ms;
+}
+
+.zoznam .karta.vek-16-25 {
+    border: 4px solid red;
+    border-radius: 10px;
+    transition: ease-in-out 0.2ms;
+}
+
+.zoznam .karta.veteran {
+    border: 4px solid blue;
+    border-radius: 10px;
+    transition: ease-in-out 0.2ms;
+}
